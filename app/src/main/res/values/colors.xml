@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="button_pressed">#345953</color>
+    <color name="button_default">#689a92</color>
+
+    <color name="button_text_clicked">#000000</color>
+    <color name="button_text_default">#FFFFFF</color>
+
+    <color name="layout_background">#455A64</color>
+
+    <color name="ripple_color">#FFFFFF</color>
+    <color name="button_stroke_color">#5e7974</color>
+</resources>

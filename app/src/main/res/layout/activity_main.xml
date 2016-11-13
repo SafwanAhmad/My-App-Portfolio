@@ -1,0 +1,65 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="@color/layout_background">
+
+        <TextView
+            android:layout_width="300dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:textSize="26dp"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/app_information"
+            android:layout_marginTop="64dp"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/first_project"
+            style="@style/button_style"
+            android:text="@string/nano_degree_first_project"
+            android:onClick="startProject"/>
+
+        <Button
+            android:id="@+id/second_project"
+            style="@style/button_style"
+            android:text="@string/nano_degree_second_project"
+            android:onClick="startProject"/>
+
+        <Button
+            android:id="@+id/third_project"
+            style="@style/button_style"
+            android:text="@string/nano_degree_third_project"
+            android:onClick="startProject"/>
+
+        <Button
+            android:id="@+id/fourth_project"
+            style="@style/button_style"
+            android:text="@string/nano_degree_fourth_project"
+            android:onClick="startProject"/>
+
+        <Button
+            android:id="@+id/fifth_project"
+            style="@style/button_style"
+            android:text="@string/nano_degree_fifth_project"
+            android:onClick="startProject"/>
+
+        <Button
+            android:id="@+id/sixth_project"
+            style="@style/button_style"
+            android:text="@string/nano_degree_sixth_project"
+            android:onClick="startProject"/>
+
+    </LinearLayout>
+
+</ScrollView>
